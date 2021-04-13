@@ -5,7 +5,7 @@
 <br>
 
 🚨 배포가 완료되지 않은 프로젝트입니다. [시연영상 보러가기](https://bit.ly/3a8zP57)  
-Backend Repository [바로가기](https://www.naver.com/)
+Frontend Repository [바로가기](https://github.com/stkang0108/workout_scheduler)
 <br>
 
 ## Used Stacks
