@@ -1,0 +1,7 @@
+type Mutation {
+  addTrainer(email: String!, trainer: String!): Boolean!
+}
+
+type Query {
+  nouse: Int!
+}

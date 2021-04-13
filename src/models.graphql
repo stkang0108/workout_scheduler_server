@@ -1,0 +1,23 @@
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  password: String!
+  trainer: String!
+  schedule: [Schedule!]!
+  lecture: [Lecture!]!
+}
+
+type Schedule {
+  id: ID!
+  date: String!
+  todo: String!
+  postedBy: User!
+}
+
+type Lecture {
+  id: ID!
+  date: String!
+  time: String!
+  postedBy: User!
+}

@@ -1,0 +1,9 @@
+type Query {
+  getLecture(name: String!): [Lecture!]!
+}
+
+type Lecture {
+  id: String!
+  date: String!
+  time: String!
+}

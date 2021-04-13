@@ -1,0 +1,18 @@
+type Mutation {
+  signin(email: String!, password: String!): AuthPayLoad!
+}
+
+type Query {
+  nouse: Int!
+}
+
+type AuthPayLoad {
+  token: String!
+  user: User
+}
+
+type User {
+  name: String!
+  email: String!
+  trainer: String!
+}

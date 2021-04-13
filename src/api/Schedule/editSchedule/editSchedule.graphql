@@ -1,0 +1,7 @@
+type Mutation {
+  editSchedule(id: ID!, todo: String!): Boolean!
+}
+
+type Query {
+  nouse: Int!
+}

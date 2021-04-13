@@ -1,0 +1,15 @@
+type Query {
+  getTodayLecture(name: String!): [Lecture!]!
+}
+
+type Lecture {
+  id: String!
+  date: String!
+  time: String!
+  postedBy: User!
+}
+
+type User {
+ name: String!
+}
+

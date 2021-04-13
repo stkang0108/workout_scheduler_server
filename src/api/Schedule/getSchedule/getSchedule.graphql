@@ -1,0 +1,9 @@
+type Query {
+  getSchedule(name: String!): [Schedule!]!
+}
+
+type Schedule {
+  id: String!
+  date: String!
+  todo: String!
+}

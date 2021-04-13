@@ -1,0 +1,11 @@
+type Mutation {
+  addLecture(
+    name: String!
+    date: String!
+    time: String!
+  ): Boolean!
+}
+
+type Query {
+  nouse: Int!
+}
